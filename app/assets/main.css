@@ -1,0 +1,176 @@
+label {
+	font-size: 13px;
+}
+
+button.selected {
+	border: 2px solid #42f4c5 !important;
+}
+
+#container {
+	padding: 20px;
+}
+
+#control-panel, #plot {
+	width: 50%;
+}
+
+#control-panel {
+	padding: 20px;
+}
+
+#plot {
+	margin: 0;
+	margin-top: 100px;
+}
+
+#newborn, #oldie {
+	height: 40px;
+}
+
+#month {
+	margin-bottom: 20px;
+}
+
+#month button {
+	width: calc((100% - 50px)/6);
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+#month-6, #month-12 {
+	margin-right: 0 !important;
+}
+
+#day {
+	margin-bottom: 20px;
+}
+
+#day button {
+	width: calc((100% - 42px)/7);
+	margin-right: 7px;
+}
+
+#day-7 {
+	margin-right: 0 !important;
+}
+
+#time {
+	height: 100px;
+}
+
+#sex-1, #sex-2 {
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	cursor: pointer;
+  	box-sizing: border-box;
+	background-image: url('img/pets.png');
+	background-repeat: no-repeat;
+    background-size: 200px 250px;
+    /*transition: background 0.3s;*/
+}
+
+#sex-1 {
+	background-position: 0px 0px;
+}
+
+#sex-1.selected {
+	background-color: #f55996;
+	background-position: -50px 0px;
+}
+
+#sex-2 {
+	background-position: -100px 0px;
+}
+
+#sex-2.selected {
+	background-color: #65c8f1;
+	background-position: -150px 0px;
+}
+
+.sex-option-label {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 11px !important;
+  	font-weight: 600  !important;
+  	letter-spacing: .1rem;
+  	text-transform: uppercase !important;
+}
+
+#age {
+	margin-top: 15px;
+}
+
+#age-display {
+	height: 30px;
+	text-align: center;
+}
+
+#age-label {
+    float: left;
+}
+
+#age-weeks-number {
+	margin-left: -85px;
+}
+
+#age-controller {
+	height: 70px;
+}
+
+#oldie {
+	margin-top: -30px;
+}
+
+#animal {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#animal-1, #animal-2 {
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+  	box-sizing: border-box;
+	background-image: url('img/pets.png');
+	background-repeat: no-repeat;
+    background-size: 200px 250px;
+}
+
+#animal-1 {
+	float: right;
+	background-position: -100px -150px;
+}
+
+#animal-1.selected {
+	background-position: 0px -150px;
+}
+
+#animal-2 {	
+	background-position: -100px -50px;
+}
+
+#animal-2.selected {
+	background-position: 0px -50px;
+}
+
+
+/* Plotly Dash style overrides*/
+.rc-slider-handle, .rc-slider-dot-active {
+	border-color: #42f4c5;
+}
+
+.rc-slider-handle:hover {
+	border-color: #2cd6a9;
+}
+
+.rc-slider-track, .gJuplL  {
+	background-color: rgba(66, 244, 197, 0.6) !important;
+}
+
+
+
+
+
+
+
